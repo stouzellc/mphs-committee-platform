@@ -1,0 +1,33 @@
+{
+  "name": "mphs-class-of-2008",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MPHS Class of 2008 reunion and cruise experience with organizer workspace.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node --test tests/*.test.js",
+    "reset-demo": "node server/reset.js",
+    "test:pg": "node scripts/test-pg.js",
+    "test:all": "npm test && npm run test:pg",
+    "db:local": "node scripts/local-pg.js",
+    "dev:oidc": "node scripts/dev-oidc.js",
+    "dev:local": "node scripts/dev-local.js",
+    "build:art": "node scripts/build-web-art.js",
+    "check:launch": "node scripts/check-launch.js",
+    "create-admin": "node scripts/create-admin.js",
+    "backup": "node scripts/backup.js",
+    "restore": "node scripts/restore.js",
+    "migrate": "node scripts/migrate.js",
+    "db:app-role": "node scripts/db-app-role.js"
+  },
+  "dependencies": {
+    "pg": "8.23.1"
+  },
+  "devDependencies": {
+    "embedded-postgres": "18.4.0-beta.17"
+  }
+}

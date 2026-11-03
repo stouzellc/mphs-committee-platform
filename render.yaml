@@ -1,0 +1,42 @@
+# Render Blueprint for the MPHS Class of 2008 committee site: FREE plan, database on Neon (free, no expiry).
+# PREPARED LOCALLY, NOT YET USED. Nothing is created until the owner (owner@example.com) applies this Blueprint
+# from their own Render account. See app/RELEASE-CHECKLIST.md "Launch free: Render + Neon".
+#
+# Free-plan facts (Render docs, Oct 2026): the service sleeps after 15 minutes without visitors and takes about a
+# minute to wake; there is no shell, so admin setup runs from the owner's Mac against Neon. Render's own free
+# database is deleted after 30 days, so it is not used; the database lives on Neon's free plan instead.
+
+services:
+  - type: web
+    name: mphs-class-of-2008
+    runtime: node
+    region: virginia            # US East; pick the Neon region closest to this (AWS us-east-1 / us-east-2)
+    plan: free
+    rootDir: app
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start     # the app applies database updates itself when it starts
+    healthCheckPath: /healthz
+    autoDeploy: false           # releases are started deliberately, not on every push
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: MPHS_DEMO_FIXTURES
+        value: "0"
+      - key: MPHS_PRIVATE_SITE
+        value: "1"
+      - key: COOKIE_SECURE
+        value: "1"
+      - key: TRUST_PROXY
+        value: "3"              # measured 30 Oct 2026 via /api/admin/client-address: visitor, Cloudflare, Render balancer
+      - key: MPHS_SESSION_HOURS
+        value: "168"            # 7 days, chosen by the planning leads
+      - key: DATABASE_SSL
+        value: require          # Neon is reached over the internet: encrypted, certificate checked
+      # Paste Neon's connection string here in the Render dashboard (never in chat or in git).
+      # Use the direct connection, not the "-pooler" one.
+      - key: DATABASE_URL
+        sync: false
+      - key: PUBLIC_BASE_URL    # the site's https:// address, e.g. https://mphs-class-of-2008.onrender.com
+        sync: false

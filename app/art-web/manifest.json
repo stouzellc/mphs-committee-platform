@@ -1,0 +1,100 @@
+[
+  {
+    "file": "mj-1-960.jpg",
+    "from": "assets/mj-1.png",
+    "originalSha256": "8b0070a816906c18d2b56f2628389ce90652e37318e96bb2c177985e4c98d4f6",
+    "sha256": "b316657a4898938ba33a48174a8f5a5e2b0621dc006f3215064a6e0724ba9faf",
+    "bytes": 283089
+  },
+  {
+    "file": "mj-1-480.jpg",
+    "from": "assets/mj-1.png",
+    "originalSha256": "8b0070a816906c18d2b56f2628389ce90652e37318e96bb2c177985e4c98d4f6",
+    "sha256": "399a522b2c86354dcd10abf3242a7288b2d672452417be742f68e34ac0458b86",
+    "bytes": 88127
+  },
+  {
+    "file": "mj-2-960.jpg",
+    "from": "assets/mj-2.png",
+    "originalSha256": "c7624cf9a5159ef4671dfbce4f9f65318e2ee1d7ad92c29652d0f5b515812b80",
+    "sha256": "03fe4be1482e50017b0401129a8097d7e8d9c61694e1461f55527d9dcecdd884",
+    "bytes": 325033
+  },
+  {
+    "file": "mj-2-480.jpg",
+    "from": "assets/mj-2.png",
+    "originalSha256": "c7624cf9a5159ef4671dfbce4f9f65318e2ee1d7ad92c29652d0f5b515812b80",
+    "sha256": "f88fc233da1ad8b007788d216fbdce4cd3a8e06f7380cc136b1f1d063fb6076f",
+    "bytes": 104219
+  },
+  {
+    "file": "mj-3-960.jpg",
+    "from": "assets/mj-3.png",
+    "originalSha256": "4dd509af8505f00dc0039e81c039fa3e4e6112aca4af3f336ea6981f2370402a",
+    "sha256": "e82842d7b2d79d6c5b05990b4d78196c3d771aaf864104218451e596df296758",
+    "bytes": 329765
+  },
+  {
+    "file": "mj-3-480.jpg",
+    "from": "assets/mj-3.png",
+    "originalSha256": "4dd509af8505f00dc0039e81c039fa3e4e6112aca4af3f336ea6981f2370402a",
+    "sha256": "b33ce12eda1c26e032587a02f79684ebfd5db63b5f552e99e30a8a5f13228152",
+    "bytes": 105321
+  },
+  {
+    "file": "mj-4-960.jpg",
+    "from": "assets/mj-4.png",
+    "originalSha256": "ab46c860d7a62c58f6886b6d75f7b910e461a6a606e9b8c24d9ac87d5fbb939d",
+    "sha256": "91bf35b09165cce83869fa8657fdbdbee2b4a4c8e73dabe7875f80fd7d9d9e1c",
+    "bytes": 319064
+  },
+  {
+    "file": "mj-4-480.jpg",
+    "from": "assets/mj-4.png",
+    "originalSha256": "ab46c860d7a62c58f6886b6d75f7b910e461a6a606e9b8c24d9ac87d5fbb939d",
+    "sha256": "35274b737a004833d63a894528591697f60ea8241931b526f401a11900edcb30",
+    "bytes": 101097
+  },
+  {
+    "file": "mj-5-960.jpg",
+    "from": "assets/mj-5.png",
+    "originalSha256": "ce378d615edad6ee0bd9e4237581cb75eeb9480119b4ecb672f417e0bbf4db6e",
+    "sha256": "27ad90c7237a0886cfd90bebdffa3e3dd117aefd946acb49855a15c294c2ddaf",
+    "bytes": 398529
+  },
+  {
+    "file": "mj-5-480.jpg",
+    "from": "assets/mj-5.png",
+    "originalSha256": "ce378d615edad6ee0bd9e4237581cb75eeb9480119b4ecb672f417e0bbf4db6e",
+    "sha256": "bc4a55bd155c5135f51aacc0ce66054ef5338b0c375d3c7b1f010a07df69c874",
+    "bytes": 114222
+  },
+  {
+    "file": "mj-6-960.jpg",
+    "from": "assets/mj-6.png",
+    "originalSha256": "0039117c0cd53b6aff33547a8aa7fefa88f05b4c9273acb81ce7b115260761e7",
+    "sha256": "c9f932626b38358314b7186b3918517e7b77a722e3b5b973718e821a2c3ba70f",
+    "bytes": 453501
+  },
+  {
+    "file": "mj-6-480.jpg",
+    "from": "assets/mj-6.png",
+    "originalSha256": "0039117c0cd53b6aff33547a8aa7fefa88f05b4c9273acb81ce7b115260761e7",
+    "sha256": "69f033412233a7c7b3eb4ac6f42c85066e35547489ef9dca82e94e8d55aa2bc0",
+    "bytes": 125141
+  },
+  {
+    "file": "seal-600.png",
+    "from": "assets/embedded-brand.png",
+    "originalSha256": "e54e87ad169bfd5e548b11f689b0b6be37715f0fa078ccce169939e534830128",
+    "sha256": "b4a8a5437ee87b801584c259c9f5c9f364f124906f559998de7d580a2a40b477",
+    "bytes": 694792
+  },
+  {
+    "file": "seal-96.png",
+    "from": "assets/embedded-brand.png",
+    "originalSha256": "e54e87ad169bfd5e548b11f689b0b6be37715f0fa078ccce169939e534830128",
+    "sha256": "b1ac2e1793f2413846a0ab9cba4f6949e8fea0dd51a82b7f313c81ed08bbe4e0",
+    "bytes": 23863
+  }
+]
